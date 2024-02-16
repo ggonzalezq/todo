@@ -1,0 +1,39 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0)
+  }
+
+  to {
+    transform: rotate(1turn)
+  }
+}
+
+@keyframes spin {
+  0% {
+    stroke-dasharray: 0,160;
+    stroke-dashoffset: 0
+  }
+
+  to {
+    stroke-dasharray: 160,160;
+    stroke-dashoffset: -124px
+  }
+}
